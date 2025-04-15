@@ -11,6 +11,6 @@ let numeros = [2, 5, 10, 11, 14, 40];
 
 let quadradoNumero = numeros.map(numero => numero * numero); 
 
-let suma = quadradoNumero.reduce((acc, curr) => acc + curr, 0);
+let soma = quadradoNumero.reduce((acc, curr) => acc + curr, 0);
 
-console.log(suma);
+console.log(soma);
