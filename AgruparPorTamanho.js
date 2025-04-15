@@ -5,7 +5,7 @@ separar em grupos
 retornar objeto com os numeros e palavras corespondentes
 */
 
-function groupWordsByLength(palavras) {
+function agruparPorTamanho(palavras) {
     const resultado = {};  //objeto que vai armazenar o resultado final
 
     palavras.forEach((palavra) => {  //pega cada item da array e chama de palavra
@@ -31,7 +31,7 @@ let palavras = [
     "praias"
 ]
 
-console.log(groupWordsByLength(palavras));
+console.log(agruparPorTamanho(palavras));
 
 /*
 for in = pega as chaves do objeto
